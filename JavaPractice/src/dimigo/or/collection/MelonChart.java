@@ -57,11 +57,13 @@ public class MelonChart {
 
 public static void printList(List<Music> list)
 {
+	int rank=1;
 	for(Music music : list)
 	{
-		System.out.println(list.toString());
-		break;
+		System.out.println(rank +". "+ music.toString());
+		rank ++;
 	}
+	System.out.println();
 }
 
 }
