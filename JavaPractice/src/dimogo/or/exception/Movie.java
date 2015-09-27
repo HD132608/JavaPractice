@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package dimogo.or.exception;
+
+/**
+ * <pre>
+ * dimogo.or.exception
+ * |_ Movie
+ *
+ * 1. 개요 :
+ * 2. 작성일 : 2015. 9. 23.
+ * </pre>
+ * 
+ * @author : 박도혁
+ * @version : 1.0
+ *
+ */
+public class Movie {
+
+	private String title;
+	public int limitAge;
+	
+	public Movie(String title, int limitAge){
+		this.title = title;
+		this.limitAge=limitAge;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public int getLimitAge() {
+		return limitAge;
+	}
+	
+	
+	
+}
