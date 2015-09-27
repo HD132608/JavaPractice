@@ -2,7 +2,10 @@
  * 
  */
 package dimigo.or.collection;
+//1차 수정
 
+//1. printList 수정
+//2. 출력값 보기좋게 수정
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
