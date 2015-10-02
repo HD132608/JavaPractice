@@ -67,6 +67,7 @@ public static void printList(List<Music> list)
 		rank ++;
 	}
 	System.out.println();
+	
 }
 
 }

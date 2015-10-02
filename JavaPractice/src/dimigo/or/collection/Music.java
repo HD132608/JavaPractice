@@ -18,6 +18,7 @@ package dimigo.or.collection;
  */
 public class Music {
 	
+	
 	private String titlel;
 	private String singer;
 	
