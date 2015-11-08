@@ -23,8 +23,8 @@ public class Race {
 //		System.out.println("main thread start");
 //		System.out.println("main thread end");
 		
-		Thread r1 = new Thread( new Runner("메이즈") );
-		Thread r2 = new Thread( new Runner("러너") );
+		Thread r1 =  new Runner("메이즈");
+		Thread r2 =  new Runner("러너");
 		
 		r1.setPriority(Thread.MAX_PRIORITY);
 		r2.setPriority(Thread.MIN_PRIORITY);

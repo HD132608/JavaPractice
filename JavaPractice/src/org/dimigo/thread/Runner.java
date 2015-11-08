@@ -16,7 +16,7 @@ package org.dimigo.thread;
  * @version : 1.0
  *
  */
-public class Runner implements Runnable {
+public class Runner extends Thread {
 
 private String name;
 
